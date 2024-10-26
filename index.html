@@ -3,39 +3,324 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Influencer Gear!</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <!-- Font Awesome Kit CND is Here -->
+    <title>Influencer</title>
+    <link rel="shortcut icon" href="./images/team.icns" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css.css" />
     <script
       src="https://kit.fontawesome.com/bebff4b1c8.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="poppins-influence">
-    <!-- Header Section is Here -->
-    <header class="container">
-      <nav class="navbar">
-        <div class="logo-section">
-          <h3 class="logo-title">Influencer products</h3>
+  <body>
+    <header class=" lg:w-4/5 mx-auto sm:w-full">
+      <!-- Navbar Start Here -->
+      <nav class="flex items-center justify-between py-12 px-10 mx-auto">
+        <!-- Logo -->
+        <div class="">
+          <h3 class="font-bold text-2xl">Influencer products</h3>
         </div>
-        <div class="menu-section">
-          <ul class="menu-list">
-            <li class="menu-items"><a href="">Home</a></li>
-            <li class="menu-items"><a href="">Products</a></li>
-            <li class="menu-items"><a href="">Sign up</a></li>
-            <li class="menu-items"><a href="">Log In</a></li>
+        <!-- Menu items Icon -->
+        <div class="hidden md:block lg:block">
+          <ul
+            class="md:flex lg:flex flex items-center justify-evenly gap-x-8 screen-sm:hidden"
+          >
             <li class="menu-items">
-              <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a class="font-semibold text-lg" class="menu-links" href=""
+                >Home</a
+              >
             </li>
             <li class="menu-items">
-              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="font-semibold text-lg" class="menu-links" href=""
+                >Products</a
+              >
+            </li>
+            <li class="menu-items">
+              <a class="font-semibold text-lg" class="menu-links" href=""
+                >Sign up</a
+              >
+            </li>
+            <li class="menu-items">
+              <a class="font-semibold text-lg" class="menu-links" href=""
+                >Log In</a
+              >
+            </li>
+            <li class="menu-items">
+              <a class="font-semibold text-lg" class="menu-links" href=""
+                ><i class="text-sm fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+            <li class="menu-items">
+              <a class="font-semibold text-lg" class="menu-links" href=""
+                ><i class="fa-solid fa-cart-shopping text-lg"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Hamburger Menu Icon -->
+        <div class="lg:hidden md:hidden sm:block">
+          <ul>
+            <li>
+              <a href=""><i class="fa-solid fa-bars"></i></a>
             </li>
           </ul>
         </div>
       </nav>
+      <!-- Hero Section Start Here -->
+      <section
+        class="flex justify-between items-center py-12 px-10 mx-auto gap-4"
+      >
+        <!-- Hero text Container -->
+        <div class="lg:w-6/12 py-4">
+          <h2 class="text-5xl font-bold text-stone-800 leading-10 py-4">
+            Start your Journey as <br />Influencer
+          </h2>
+          <p class="text-stone-700 text-base leading-6">
+            Starting your journey as an influencer means stepping into a world
+            where your unique voice, passions, and perspective can inspire
+            others. It’s about sharing what genuinely excites you—whether it’s
+            fitness, fashion, tech, or personal growth—and building a community
+            that resonates with your message. As you create valuable content,
+            engage authentically, and remain true to your vision, you’ll begin
+            to connect with like-minded followers who value your insights and
+            trust your recommendations. Embrace each step, stay consistent, and
+            let your authentic self shine; the journey is as rewarding as the
+            impact you’ll make along the way.
+          </p>
+          <button class="bg-[#E02C6D] rounded-full text-white px-8 py-3 mt-4">
+            Prebook Now <i class="fa-solid fa-arrow-right px-2"></i>
+          </button>
+        </div>
+        <!-- Hero img Container -->
+        <div class="">
+          <img
+            style="background-image: url('./images/Circle\ design.svg')"
+            class="w-full h-fit bg-no-repeat bg-cover p-4"
+            src="images/main-camera.png"
+            alt="Main-Camera is Here"
+          />
+        </div>
+      </section>
+      <div
+        class="w-full h-full bg-[url(https://unsplash.com/photos/a-person-holding-a-laptop-7mBictB_urk)] bg-cover bg-center bg-no-repeat"
+      ></div>
     </header>
-    <!-- !Header Section is Ends Here! -->
-    <main></main>
-    <footer></footer>
+    <main>
+      <!-- Company Logo Section Start Here -->
+      <!-- This section displays logos of partner companies, clients, or sponsors. -->
+      <section class="mx-auto py-10">
+        <div
+          class="w-4/5 place-content-center grid-cols-4 px-10 mx-auto grid content-center gap-4 lg:grid-cols-7"
+        >
+          <div><img src="logos/Alibaba.svg" alt="" /></div>
+          <div><img src="logos/Amazon.svg" alt="" /></div>
+          <div><img src="logos/Daraz.pk Logo.svg" alt="" /></div>
+          <div><img src="logos/Ebay.svg" alt="" /></div>
+          <div><img src="logos/Rakuten.svg" alt="" /></div>
+          <div><img src="logos/Walmart.svg" alt="" /></div>
+          <div><img src="logos/Target.svg" alt="" /></div>
+        </div>
+      </section>
+      <section class="w-4/5 mx-auto py-10">
+        <div class="w-full max-w-4xl flex mx-auto py-4">
+          <h2 class="text-center mx-auto text-4xl font-semibold pb-4">Popular Collection</h2>
+        </div>
+        <div class="w-4/5  mx-auto sm:w-full md:w-full lg:w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/tripod.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Flex Tripod</h3>
+              <p class="text-xl text-gray-800 py-2">$50.48</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/mic.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Microphone</h3>
+              <p class="text-xl text-gray-800 py-2">$120.25</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/airpod.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">AirPods</h3>
+              <p class="text-xl text-gray-800 py-2">$100.00</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/drone.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Drone</h3>
+              <p class="text-xl text-gray-800 py-2">$980.25</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/lights.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Light Setup</h3>
+              <p class="text-xl text-gray-800 py-2">$1200.00</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/setup.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Photoshoot Set</h3>
+              <p class="text-xl text-gray-800 py-2">$820.40</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/camera.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Vlogging Camera</h3>
+              <p class="text-xl text-gray-800 py-2">$1800.80</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 lg:max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/single-light.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Green Screen</h3>
+              <p class="text-xl text-gray-800 py-2">$25.48</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          <div class="max-w-80 max-w-md p-3 flex flex-col gap-md-1 shadow-md border-2 rounded-md">
+            <div class="">
+            <img class="w-full object-cover rounded" src="images/action.png" alt="">
+            </div>
+            <div class="py-2">
+              <h3 class="text-2xl font-medium">Action Camera</h3>
+              <p class="text-xl text-gray-800 py-2">$380.00</p>
+              <div class="flex gap-2 ">
+                <span class="text-orange-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <p>4.99</p>
+              </div>
+              <p class="text-base text-gray-500">Worldwide shifting available
+                Buyers protection possible!</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
